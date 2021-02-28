@@ -5,8 +5,8 @@ import { faUserPlus } from "@fortawesome/free-solid-svg-icons";
 const ShowPeople = (props) => {
   const { name, gender, salary, img } = props.man;
   return (
-    <section>
-      <div className="people-list bg-primary text-light">
+    <div className="d-flex">
+      <div className="people-list bg-primary text-light rounded">
         <img src={img} alt="" />
         <div className="details">
           <h3>{name}</h3>
@@ -19,7 +19,7 @@ const ShowPeople = (props) => {
           </button>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
