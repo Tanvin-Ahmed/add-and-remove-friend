@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.show-list-people{
+    border-right: 1px solid gray;
+    width: 65%;
+}
