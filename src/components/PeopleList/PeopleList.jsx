@@ -18,7 +18,7 @@ const PeopleList = () => {
   })
   }
   return (
-    <div className="d-flex">
+    <div className="flex">
     <div className="show-list-people">
       {people.map((man) => (
         <ShowPeople key={man.id} man={man} handleAddFriend={handleAddFriend}></ShowPeople>
